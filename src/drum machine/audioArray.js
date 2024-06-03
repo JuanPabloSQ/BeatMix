@@ -2,59 +2,47 @@ const projectName = 'drum-machine';
 
 const audioArray = [
     {
-        text: 'Claps',
-        src: './sounds/claps.wav',
+        text: 'DO',
+        src: './sounds/DO.mp3',
         id: 'Q',
         keyCode: 'KeyQ'
     },
     {
-        text: 'Crash',
-        src: './sounds/crash.wav',
+        text: 'RE',
+        src: './sounds/RE.mp3',
         id: 'W',
         keyCode: 'KeyW'
     },
     {
-        text: 'Cymbal',
-        src: './sounds/cymbal.wav',
+        text: 'MI',
+        src: './sounds/MI.mp3',
         id: 'E',
         keyCode: 'KeyE'
     },
     {
-        text: 'FX (Effect)',
-        src: './sounds/fx.wav',
+        text: 'FA',
+        src: './sounds/FA.mp3',
         id: 'A',
         keyCode: 'KeyA'
     },
     {
-        text: 'Kick',
-        src: './sounds/kick.wav',
+        text: 'SOL',
+        src: './sounds/SOL.mp3',
         id: 'S',
         keyCode: 'KeyS'
     },
     {
-        text: 'Percussions',
-        src: './sounds/percussions.wav',
+        text: 'LA',
+        src: './sounds/LA.mp3',
         id: 'D',
         keyCode: 'KeyD'
     },
     {
-        text: 'Shaker',
-        src: './sounds/shaker.wav',
+        text: 'SI',
+        src: './sounds/SI.mp3',
         id: 'Z',
         keyCode: 'KeyZ'
     },
-    {
-        text: 'Snare',
-        src: './sounds/snare.wav',
-        id: 'X',
-        keyCode: 'KeyX'
-    },
-    {
-        text: 'Tom',
-        src: './sounds/tom.wav',
-        id: 'C',
-        keyCode: 'KeyC'
-    }
 ];
 
 export default audioArray;
